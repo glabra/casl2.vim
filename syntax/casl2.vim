@@ -26,7 +26,7 @@ syntax region casl2String oneline start="'" end="'" contained display
 syntax keyword casl2Instructions RET NOP START END POP contained
 syntax keyword casl2Instructions DS contained skipwhite
 syntax keyword casl2Instructions DC contained skipwhite nextgroup=casl2String
-syntax keyword casl2Instructions LD ST ADDA SUBA ADDL SUBL AND OR XOR CPA CPL JUMP JPL JML JNZ JZE JOV CALL SVC contained skipwhite
+syntax keyword casl2Instructions LD ST ADDA SUBA ADDL SUBL AND OR XOR CPA CPL JUMP JPL JMI JNZ JZE JOV CALL SVC contained skipwhite
 syntax keyword casl2Instructions LAD SLA SRA SLL SRL PUSH contained skipwhite
 
 highlight def link casl2Address Special
